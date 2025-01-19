@@ -451,9 +451,13 @@ main {
 
   .banner-section > .banner-text > .banner-description {
     font-weight: 500;
+    font-size: 14px;
     /* width: 370px; */
-    margin-left: 0;
-    text-align: center;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0;
+     /* align-self: center; */
+    /* text-align: center; */
   }
 
   .banner-section .btn-one {
