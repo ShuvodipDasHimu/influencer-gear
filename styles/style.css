@@ -163,13 +163,14 @@ main {
 } */
 .sponsors {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping on small screens */
+  flex-wrap: wrap;
   gap: 50px;
-  justify-content: center; /* Center the content */
+  justify-content: center;
   align-items: center;
-  padding: 20px; /* Add consistent padding */
-  margin: 0 auto; /* Prevent shifting to the left */
-  max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 80px;
 }
 .sponsors-logos-1 img, .sponsors-logos-2 img {
   /* width: 100px; */
@@ -201,7 +202,9 @@ main {
 } */
 
 /* Products Section */
-
+.container-title {
+  margin-bottom: 30px;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -320,6 +323,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  width: 100%;
 }
 
 .footer-title {
@@ -399,7 +403,7 @@ main {
     gap: 0px;
   }
   .banner-section .banner-image {
-    background-image: url("/images/Circle\ design.svg");
+    background-image: url("../images/Circle\ design.svg");
     /* max-width: 176px; */
     background-size: 80%;
     height: 400px;
@@ -447,7 +451,7 @@ main {
 
   .banner-section > .banner-text > .banner-description {
     font-weight: 500;
-    width: 370px;
+    /* width: 370px; */
     margin-left: 0;
     text-align: center;
   }
