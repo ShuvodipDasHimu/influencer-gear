@@ -311,6 +311,36 @@ main {
   cursor: pointer;
 }
 
+/* Footer Section */
+.footer {
+  background-color: #000;
+  height: 270px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social i{
+  font-size: 1.5rem;
+  background-color: #22213C;
+  padding: 10px;
+  border-radius: 50%;
+}
+
 
 /* Responsive Styles for Small Devices */
 
