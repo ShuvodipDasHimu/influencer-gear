@@ -416,15 +416,18 @@ main {
   }
 
   .banner-section .banner-image {
-    background-image: url("../images/Circle\ design.svg");
-    /* padding: 100px; */
-    /* width:490px; */
-    object-fit: cover;
-    /* height: auto; */
-    /* z-index: 1; */
-    /* position: relative; */
-    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: 82%;
+    align-self: center;
+    margin: 0 auto;
+  }
 
+  .banner-camera {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 300px;
+    /* width: 100%; */
   }
 
   .banner-text .banner-description {
