@@ -359,6 +359,7 @@ main {
   }
   .navbar {
     margin-top: 20px;
+    margin-bottom: -20px;
     padding: 0;
     flex-direction: column;
     align-items: center;
@@ -371,7 +372,7 @@ main {
 
   .nav-links {
     justify-content: center;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
     gap: 0rem;
     /* display: grid; */
     /* grid-template-columns: repeat(3, 1fr); */
@@ -412,15 +413,19 @@ main {
 
   .banner-camera {
     height: 300px;
-    margin: 0;
+    /* margin: 0 auto; */
+    align-self: center;
+    /* align-items: center; */
   }
 
   .banner-section .banner-image {
     display: flex;
     flex-direction: column;
-    background-size: 82%;
-    align-self: center;
-    margin: 0 auto;
+    background-size: 65%;
+    background-position: center;
+    /* align-self: center; */
+    /* align-items: center; */
+    /* margin: 0 200px; */
   }
 
   .banner-camera {
