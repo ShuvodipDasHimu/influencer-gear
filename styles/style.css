@@ -127,7 +127,7 @@ body {
 
 .banner-section .banner-image {
   display: flex;
-  background-image: url("/images/Circle\ design.svg");
+  background-image: url("../images/Circle\ design.svg");
   width: 476px;
   height: 500px;
   /* z-index: 1; */
