@@ -397,6 +397,7 @@ main {
     /* padding: 10px; */
     /* max-width: 576px; */
     align-items: center;
+    justify-content: center;
     /* justify-content: space-evenly; */
     flex-direction: column-reverse;
     /* justify-content: space-around; */
@@ -456,6 +457,7 @@ main {
     max-width: 350px;
     margin: 0 auto;
     padding: 0;
+    text-align: center;
      /* align-self: center; */
     /* text-align: center; */
   }
