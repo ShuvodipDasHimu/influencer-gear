@@ -405,7 +405,7 @@ main {
   .banner-section .banner-image {
     background-image: url("../images/Circle\ design.svg");
     /* max-width: 176px; */
-    background-size: 80%;
+    background-size: 70%;
     height: 400px;
     /* float: left; */
     /* margin-left: -209px; */
@@ -422,7 +422,7 @@ main {
   .banner-camera {
     height: 280px;
     /* margin-top: -0px; */
-    margin-left: 40px;
+    /* margin-left: 40px; */
     /* margin-top: 25px; */
     align-self: center;
     justify-content: center;
